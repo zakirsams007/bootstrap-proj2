@@ -1,0 +1,263 @@
+
+/* navbar */
+#nav{
+    background: #daac00;
+    padding: 0 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    font-size: 21px;
+    padding-left: 27px;
+}
+
+/* serch-box and serch-button */
+
+#src-box{
+    background-color: #fcc302 ;
+    border: 0px;
+    outline: 0px;
+    border-radius: 0px;
+    color: white;
+    position: relative;
+    left: 44px;
+    box-shadow: 6px 11px 12px 0px #00000023;
+}
+#src-box::placeholder{
+    color: white;
+}
+#src-btn{
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+    border: 0px;
+    border-radius: opx;
+    outline: 0px;
+}
+
+/* make resposive */
+@media only screen and (max-width:768px){
+    #serch-sec{
+        margin-top: 40px;
+        margin-bottom:30px;
+        position: relative;
+        left: -30px;
+    }
+
+}
+@media only screen and (max-width:912px){
+    #serch-sec{
+        margin-top: 40px;
+        margin-bottom:30px;
+        position: relative;
+        left: -30px;
+    }
+}
+
+/* banner */
+
+#banner{
+    background-color: #fcc302;
+    padding-bottom : 50px;
+}
+#gif{
+    background: transparent;
+    display: block;
+    width: 300px;
+    height: 250px;
+    border: 0px;
+    outline: 0px;
+    border-radius: 0px;
+    margin-left: 10px;
+}
+#baner-txt h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 60px;
+}
+#baner-txt p{
+    color: white;
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#baner-btn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+    border-radius: 5px;
+}
+#baner-btn2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 18px;
+}
+@media only screen and (max-width:1300px) {
+     
+    #baner-txt h1{
+        font-size: 50px;
+    } 
+    #banner{
+          padding-bottom: 70px;
+          margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:500px) {
+     
+    #baner-txt h1{
+        font-size: 20px;
+    } 
+    #pupy{
+       padding-top: 3px;
+    } 
+}
+@media only screen and (max-width:900px) {
+     
+    #baner-txt h1{
+        font-size: 30px;
+    }
+    #pupy{
+        padding-top: 110px;
+    } 
+}
+
+/* service section */
+
+#servicediv1{
+    padding-top: 10%;
+    padding-bottom: 6%;
+    padding-left: 70px;
+}
+#serv-h1{
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+#btn-3{
+    color: white;
+    background-color: #daac00;
+    border: 2px solid #daac00;
+    border-radius: 3px;
+    margin-top: 5%;
+}
+#servicediv2{
+    padding: 2%;
+    padding-left: 10%;
+    margin: 5%;
+    
+}
+#counter{
+    background-image: url("images/background.png");
+    background-color: #daac00;
+     height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width:500px){
+    .vac{
+      margin-top: 10px;
+    }
+}
+
+/* blog */
+#post{
+    padding-top: 80px;
+    padding-bottom: 90px;
+  
+}
+.post-div{
+    box-shadow: 6px 11px 12px 0px #00000026;
+    padding-bottom: 10px;
+
+}
+#title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#para{
+    font-size: 22px;
+    margin-bottom: 5%;
+    margin-top: 30px;
+}
+.article-detail{
+    padding: 20px;
+    border: 2px solid rgb(185,185,185);
+    border-top: 0px;
+}
+.post-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+.date, .anker{
+    font-size: 16px;
+    font-weight: bold;
+    color: #00bec9;
+    text-decoration: none;
+}
+
+/* gif */
+#gif{
+    display: inline;
+    margin-left: 50px;
+    background-color: white;
+    background: transparent;
+}
+
+/* footer */
+#foter{
+    background-color: #343434;
+    padding-bottom: 30px;
+}
+
+#foter a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#foter h4{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+#form{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#input-foter{
+    background-color: #fcc302;
+    border: 0px;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    left: 10px;
+
+
+}
+#submit{
+    background-color: #00bec9;
+    border: 0px;
+    border-radius: 0px;
+    padding: 12px 25px;
+}
+
+.soc-icon{
+    font-size: 23px;
+    cursor: pointer;
+    padding-left: 11px;
+}
+#snt-icon{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
